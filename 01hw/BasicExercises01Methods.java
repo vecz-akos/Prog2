@@ -90,7 +90,6 @@ public class BasicExercises01Methods {
 		int count = 0;
 		String returnStr = "";
 		for (char ch : str.toCharArray()) {
-			// System.out.println(count > 0 || ch == 'a');
 			if (count > 0 || ch == 'a') {
 				returnStr += ch;
 				++count;
